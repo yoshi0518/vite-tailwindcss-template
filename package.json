@@ -4,10 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "watch": "tailwindcss -i ./src/styles.css -o ./dist/styles.css --watch",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint:fix": "eslint --ext \".js\" --ignore-path .gitignore . --fix && prettier --write \"./**/*.{html,css,js}\""
+    "lint": "eslint --ext \".js\" --ignore-path .gitignore . --fix && prettier --write \"./**/*.{html,css,js}\""
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
