@@ -6,8 +6,11 @@
 # パッケージをインストール
 $ npm install
 
+# Watchモード起動(TailwindCSSv3 JIT)
+$ npm run watch
+
 # ESLint＋Prettier
-$ npm run lint:fix
+$ npm run lint
 
 # 開発サーバー起動
 $ npm run dev
